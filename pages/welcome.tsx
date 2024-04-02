@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 import { SquareDot } from "lucide-react";
@@ -17,6 +18,7 @@ export default function Welcome() {
           </nav>
         </div>
       </header>
+
       <main className="flex-1">
         <section className="w-full pt-12 md:pt-24 lg:pt-32">
           <div className="container px-4 md:px-6">
@@ -36,7 +38,17 @@ export default function Welcome() {
           </div>
         </section>
       </main>
-      {/* <footer className="flex flex-col gap-2 sm:flex-row py-6 w-full shrink-0 items-center px-4 md:px-6 border-t">
+      <footer className="flex flex-col gap-2 sm:flex-row py-6 w-full shrink-0 items-center px-4 md:px-6 justify-center">
+        <a href="https://www.producthunt.com/posts/hoxe?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-hoxe" target="_blank">
+          <Image
+            src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=448716&theme=neutral"
+            alt="Hoxe - Bring&#0032;your&#0032;day&#0032;completed&#0044;&#0032;manage&#0032;your&#0032;tasks&#0032;as&#0032;a&#0032;dummie&#0046; | Product Hunt"
+            width={200}
+            height={43.19}
+          />
+        </a>
+      </footer>
+      {/* 
         <p className="text-xs text-gray-500 dark:text-gray-400">© 2024 Acme Inc. All rights reserved.</p>
         <nav className="sm:ml-auto flex gap-4 sm:gap-6">
           <Link className="text-xs hover:underline underline-offset-4" href="#">
@@ -46,7 +58,7 @@ export default function Welcome() {
             Privacy
           </Link>
         </nav>
-      </footer> */}
+       */}
     </div>
   )
 }
