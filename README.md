@@ -1,7 +1,12 @@
-<img src="./public/hoxe.png" />
+<img src="https://github.com/matheusho/hoxe/blob/main/public/Hoxe.png" />
 
 # Hoxe
 > Today get more done with Hoxe
+
+## Technologies
+
+* [NEXT.js](https://nextjs.org/)
+* [shadcn/ui](https://ui.shadcn.com/)
 
 ## Getting Started
 
